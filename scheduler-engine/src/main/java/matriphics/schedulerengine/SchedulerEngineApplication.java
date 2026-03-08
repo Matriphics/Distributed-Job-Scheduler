@@ -1,0 +1,15 @@
+package matriphics.schedulerengine;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling
+public class SchedulerEngineApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SchedulerEngineApplication.class, args);
+	}
+
+}
